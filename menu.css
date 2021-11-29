@@ -1,0 +1,1065 @@
+
+/* Corpo */
+body{
+    background: white;
+}
+/* Cabeçalho */
+header{
+    height: 250px;
+}
+section {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-top: -100px;
+}
+section p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+section img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+  /* Barra de Pesquisa */
+input {
+    float: left;
+    margin-top: 0px;
+    padding: 3px;
+    width: 97%;
+    border-radius: 15px;
+    text-align: center;
+}
+/* Menu */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a img {
+    cursor: pointer;
+    width: 50px;
+    float: right;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.menu {
+    background-color: black;
+}
+.menu ul li {
+    background-color: rgb(76, 163, 163);
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    position: relative;
+}
+.menu ul li:hover{
+    background-color: rgb(83, 46, 46);
+}
+.menu ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 29%;
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: inline-block;
+    margin-left: 1px;
+}
+.menu ul ul ul{
+    margin-left: 202px;
+    top: 0px;
+    position: fixed;
+}
+.menu ul ul li:hover{
+    background-color: rgb(77, 184, 143);
+}
+.menu ul ul ul li:hover{
+    background-color:rgb(67, 116, 122);
+    position: fixed;
+}
+main {
+    overflow-x: hidden;
+}
+/* Filtros */
+#filtros {
+    width: 100%;
+    margin-left: 5px;
+}
+#filtros p {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#filtros img {
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+    padding: 5px;
+}
+#fil1,#fil2,#fil3,#fil4,#fil5,#fil6 {
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    overflow: hidden;
+    border-end-start-radius: 15px;
+}
+#fil1 button,#fil2 button,#fil3 button,#fil4 button,#fil5 button,#fil6 button {
+    margin-left: -400px;
+    margin-top: 130px;
+}
+#fil1 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%;
+}
+#fil2 {
+    width: 80%;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 20px;
+    margin-top: 20px;
+}
+#fil3 {
+    display: flex;
+    width: 80%;
+    box-shadow: 1px 1px 1px 1px #43747a;
+    padding: 20px;
+    margin-top: 20px;
+}
+#fil4 {
+    width: 80%;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px rgb(201, 176, 176);
+    padding: 20px;
+    margin-top: 20px;
+}
+#fil5 {
+    width: 80%;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px rgb(159, 202, 142);
+    margin-top: 20px;
+    padding: 20px;
+}
+#fil6 {
+    width: 80%;
+    height: 230px;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px rgb(114, 133, 182);
+    margin-top: 20px;
+    padding: 20px;
+}
+/* Travagem */
+.pastilhas-travao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
+}
+.pastilhas-travao p {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pastilhas-travao img {
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+    padding: 5px;
+}
+#travoes,#travoes2,#travoes3 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#travoes p,#travoes2 p,#travao3 p {
+    font-size: 20px;
+    font-weight: bold;
+}
+#travoes button,#travoes2 button, #travao3 button {
+    margin-top: 158px;
+    margin-left: -350px;
+}
+#travao3 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+/* Embraiagem */
+.embraiagem {
+    width: 100%;
+    margin-left: 5px;
+}
+.embraiagem p {
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    width: 100%;
+}
+.embraiagem img {
+    width: 95px;
+    height: 95px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 25px;
+}
+#kit,#cabo,#atuador {
+    height: 300px;
+}
+#kit img,#cabo img,#atuador img {
+    width: 50px;
+    height: 50px;
+}
+#kit button,#cabo button,#atuador button {
+    margin-left: -300px;
+}
+#kit p, #atuador p, #cabo p {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#kit {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#kit button {
+    margin-top: 230px;
+}
+#cabo button,#atuador button {
+    margin-top: 230px;
+    align-content: center;
+    justify-content: center;
+}
+#cabo {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#atuador {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+/* Escapamento */
+.escapamento {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+    width: 100%;
+}
+#esc1 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#esc2 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#esc3 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#esc1 img,#esc2 img,#esc3 img {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    padding: 2%;
+    height:30px;
+}
+#esc1 button,#esc2 button,#esc3 button {
+    margin-top: 200px;
+    margin-left: -258px;
+}
+#esc3 button {
+    margin-left: -288px;
+}
+#esc1 p,#esc2 p,#esc3 p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1em;
+    text-align: center;
+}
+/*Bateria*/
+.bateria {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+#bater1 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#bater2 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#bater3 {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#bater1 button {
+    margin-top: 200px;
+    margin-left: -388px;
+}
+#bater2 button {
+    margin-top: 200px;
+    margin-left: -388px;
+}
+#bater3 button {
+    margin-top: 200px;
+    margin-left: -388px;
+}
+/*Direção*/
+.direcao {
+    display: flex;
+    padding: 15%;
+}
+.direcao button {
+    margin-left: 260px;
+}
+#rolamento-roda img {
+    margin-left: 290px;
+    padding: 10px;
+}
+#cabeca-direcao img {
+    margin-left: 290px;
+    padding: 10px;
+}
+/*Suspensão*/
+.suspensao {
+    padding: 100px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.suspensao img {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    padding: 10px;
+}
+#mola,#bracos,#bucha {
+    display: flex;
+    box-shadow: 1px 1px 1px 1px blue;
+    margin-top: 20px;
+    margin-left: -50px;
+    padding: 20px;
+    width: 100%;
+    border-end-start-radius: 15px;
+}
+#mola p,#bracos p,#bucha p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#mola button,#bracos button,#bucha button {
+    margin-left: -300px;
+    margin-top: 100px;
+}
+#bracos button,#bucha button {
+    margin-left: -200px;
+    margin-top: 140px;
+}
+#mola {
+    align-items: center;
+    justify-content: center;
+}
+/*Pneu*/
+.pneu {
+    box-shadow: 10px 10px 10px 10px #4db88f;
+    display: flex;
+    flex-direction: column;
+    margin-top: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 38.7%;
+    width: max-content;
+}
+.pneu img {
+    width: 100px;
+    height: 100px;
+}
+.pneu p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pneu button {
+    margin-right: 170px;
+    margin-top: -2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Lubrificante*/
+.lubrificante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 35%;
+    margin-top: 2%;
+    width: max-content;
+    height: max-content;
+    box-shadow: 10px 10px 10px 10px seagreen;
+}
+.lubrificante img {
+    width: 100px;
+    height: 100px;
+}
+.lubrificante p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lubrificante button {
+    margin-right: 160px;
+}
+/*Jogos de Junts de Motor*/
+.jogo {
+    box-shadow: 10px 10px 10px 10px #532e2e;
+    margin-right: 30%;
+    margin-top: 50px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jogo img {
+    width: 150px;
+    height: 150px;
+}
+.jogo button {
+    margin-right: 150px;
+}
+.jogo p {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button {
+    background-color:rgb(83, 46, 46);
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    width: 100px;
+    margin-top: 18px;
+    margin-left: 165px;
+    border-radius: 5px;
+}
+footer {
+    font-family: cursive;
+    background-color: rgb(130, 184, 50);
+    margin-top: 258px;
+}
+footer p {
+    font-size: large;
+    text-align: center;
+}
+footer h6 {
+    font-size: large;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -190px;
+}
+footer div {
+    text-align: left;
+}
+.rede-social {
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.rede-social a {
+    margin-top: 258px;
+    margin-left: -38%;
+}
+.rede-social p {
+    font-family:'Gill Sans MT';
+    font-weight: bold;
+    margin-left: -300%;
+    margin-top: -50px;
+}
+.rede-social img {
+    padding: 5px;
+    flex-direction: column;
+    width: 40px;
+}
+@media (max-width: 425px) {
+    header {
+        height: max-content;
+    }
+    label[for="bt_menu"] {
+        display: block;
+        background-color: transparent;
+        width: 29px;
+        height: 29px;
+        margin: 6px 10px;
+        position: relative;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    #bt_menu:checked ~ .menu {
+        left: 0;
+        display: none;
+    }
+    .logo img{
+        width: 100%;
+    }
+    #contato {
+        width: 100px;
+        font-size: 5px;
+        margin-top: 20px;
+    }
+    #contato img {
+        margin-left: 150px;
+        float: left;
+        background-color: transparent;
+    }
+    #contato p {
+        font-family: fantasy;
+        text-transform: uppercase;
+    }
+    a {
+        text-decoration: none;
+    }
+    a img {
+        width: 50px;
+        float: left;
+        margin-top: 15px;
+    }
+    .menu {
+        background-color: #d2691e;
+        display: flex;
+        animation: typing .5s;
+        width: max-content;
+        height: max-content;
+    }
+    .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        animation: typing .5s; 
+    }
+    .menu ul li {
+        background-color: #d2691e;
+        color: #f0f8ff;
+        width: 250px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .menu ul li:hover{
+        background-color: #532e2e;
+    }
+    .menu ul ul{
+        display: none;
+        transition: all .5s;
+        width: max-content;
+        height: max-content;
+        margin-top: -40px;
+    }
+    .menu ul ul:hover {
+        background-color: #D2B48C;
+        color: #435b7a;
+    }
+    .menu ul ul li {
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+    }
+    .menu ul ul li:hover{
+        background-color: #4db88f;
+    }
+    .menu ul li:hover > ul{
+        display: inline-block;
+        margin-left: 1px;
+    }
+    #bt_menu {
+        display: none;
+    }
+    input {
+        width: 85%;
+    }
+    main {
+        width: 100%;
+        height: max-content;
+    }
+    /*Filtro*/
+    #fil1,#fil2,#fil3,#fil4,#fil5,#fil6 {
+        display: flex;
+    }
+    /* Direção */
+    .direcao {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #rolamento-roda {
+        width: 55%;
+        margin-top: 45px;
+        margin-right: -280px;
+    }
+    #cabeca-direcao {
+        margin-left: -450px;
+    }
+    /*Suspensão*/
+    #mola button {
+        width: 60px;
+    }
+    #bracos,#bucha {
+        align-items: center;
+    }
+    #bracos p,#bucha p {
+        font-size: 15px;
+    }
+    /*Pneu*/
+    .pneu {
+        box-shadow: 5px 5px 5px 5px wheat;
+        width: 200px;
+        margin-right: 100px;
+    }
+    .pneu img {
+        width: 50px;
+        height: 50px;
+    }
+    .pneu p {
+        font-size: 10px;
+    }
+    .pneu button {
+        font-size: 10px;
+    }
+    /*Lubrificante*/
+    .lubrificante {
+        margin-top: -1px;
+        width: 200px;
+    }
+    .lubrificante img {
+        width: 20px;
+        height: 20px;
+    }
+    .lubrificante p {
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    /*jogos de junta de motor*/
+    .jogo {
+        margin-right: -2px;
+        width: max-content;
+    }
+    .jogo p {
+        font-size: 15px;
+    }
+    .jogo button {
+        font-size: 18px;
+    }
+    footer {
+        width: max-content;
+        height: max-content;
+    }
+    footer div {
+        padding: 10px;
+        height: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .rede-social {
+        position: relative;
+        width: max-content;
+        display: flex; 
+        flex-direction: column;
+    }
+    .rede-social p {
+        font-size: 10px;
+        margin-left: -150px;
+        flex-wrap: wrap;
+    }
+    .rede-social img {
+        width: 40px;
+        height: 40px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 768px) {
+    label[for="bt_menu"] {
+        display: block;
+        background-color: transparent;
+        width: 29px;
+        height: 29px;
+        margin: 6px 10px;
+        margin-top: 150px;
+        position: relative;
+        white-space: nowrap;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    #bt_menu {
+        display: none;
+    }
+    #bt_menu:checked ~ .menu {
+        left: 0;
+        display: none;
+    }
+    .logo {
+        float: left;
+        margin-top: -130px;
+        width: max-content;
+    }
+    .logo img {
+        width: max-content;
+    }
+    #contato {
+        width: 350px;
+        font-size: 10px;
+        margin-top: -100px;
+    }
+    #contato p {
+        font-size: 20px;
+        float: right;
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+    }
+    a img {
+        width: 50px;
+        float: left;
+    }
+    .menu {
+        background-color: #D2B48C;
+        display: flex;
+        animation: typing .5s;
+        width: max-content;
+        height: max-content;
+    }
+    .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        animation: typing .5s; 
+    }
+    .menu ul li {
+        background-color: #d2691e;
+        color: #f0f8ff;
+        width: 250px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .menu ul li:hover{
+        background-color: #532e2e;
+    }
+    .menu ul ul{
+        display: none;
+        transition: all .5s;
+        width: max-content;
+        height: max-content;
+        margin-top: -40px;
+    }
+    .menu ul ul:hover {
+        background-color: #D2B48C;
+        color: #435b7a;
+    }
+    .menu ul ul li {
+        display: flex;
+        justify-content: center;
+        margin-left: 250px;
+    }
+    .menu ul ul li:hover{
+        background-color: #4db88f;
+    }
+    .menu ul li:hover > ul{
+        display: inline-block;
+        margin-left: 1px;
+    }
+    input {
+        width:85%;
+    }
+    main {
+        width: 100%;
+        height: auto;
+    }
+    /*Pneu*/
+    .pneu {
+        box-shadow: 5px 5px 5px 5px olive;
+    }
+    .pneu img {
+        width: 50px;
+        height: 50px;
+    }
+    .pneu p {
+        font-size: 15px;
+    }
+    .pneu button {
+        font-size: 10px;
+    }
+    /*Lubrificante*/
+    .lubrificante img {
+        width: 50px;
+        height: 50px;
+    }
+    .lubrificante p {
+        font-size: 10px;
+    }
+    .lubrificante button {
+        background-color: #435b7a;
+        font-size: 10px;
+    }
+    footer {
+        width: 100%;
+        margin-top: 100px;
+        background-color: slategray;
+    }
+    .rede-social {
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        position: absolute;
+        margin-top: 5px;  
+        margin-left: 330px;
+        margin-top: 27px;
+    }
+    .rede-social p {
+        position: relative;
+        text-align: center;
+        margin-left: -100px;
+        margin-top: -21px;
+        height: 100px;
+    }
+    .rede-social a {
+        display: flex;
+        margin-top: 20px;
+        margin-left: -135px;
+    }
+    .rede-social img {
+        align-items: center;
+        justify-content: center;
+        margin-left: 25px;
+    }
+    footer div {
+        width: 250px;
+    }
+    footer h6 {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 1px;
+    }
+    /* Filtros */
+    #filtros {
+        width: 50%;
+        margin-left: 5px;
+    }
+    #filtros p {
+        font-size: 45px;
+        letter-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #filtros img {
+        width: 95px;
+        height: 95px;
+        margin: 5px;
+        padding: 5px;
+    }
+    #fil1,#fil2,#fil3,#fil4,#fil5,#fil6 {
+        padding: 100px;
+        margin-top: 100px;
+        margin-left: 200px;
+        text-align: center;
+        overflow: hidden;
+        border-end-start-radius: 15px;
+    }
+    #fil1 button,#fil2 button,#fil3 button,#fil4 button,#fil5 button,#fil6 button {
+        margin-left: -450px;
+        margin-top: 130px;
+    }
+    #fil1 {
+        display: flex;
+        box-shadow: 1px 1px 1px 1px blue;
+        margin-top: 20px;
+        padding: 20px;
+        width: 80%;
+    }
+    #fil2 {
+        width: 80%;
+        display: flex;
+        box-shadow: 1px 1px 1px 1px black;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    #fil3 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        box-shadow: 1px 1px 1px 1px #43747a;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    #fil4 {
+        width: 80%;
+        display: flex;
+        box-shadow: 1px 1px 1px 1px rgb(201, 176, 176);
+        padding: 20px;
+        margin-top: 20px;
+    }
+    #fil5 {
+        width: 80%;
+        display: flex;
+        box-shadow: 1px 1px 1px 1px rgb(159, 202, 142);
+        margin-top: 20px;
+        padding: 20px;
+    }
+    #fil6 {
+        width: 80%;
+        height: 230px;
+        display: flex;
+        box-shadow: 1px 1px 1px 1px rgb(114, 133, 182);
+        margin-top: 20px;
+        padding: 20px;
+    }
+    /*Direção*/
+    .direcao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15%;
+    }
+    #rolamneto-roda,#cabeca-direcao {
+        padding: 5px;
+    }
+    #rolamento-roda {
+        margin-left: -100px;
+    }
+    #cabeca-direcao {
+        margin-left: 180px;
+        height: max-content;
+    }
+    #rolamento-roda p,#cabeca-direcao p {
+        font-size: 13px;
+        font-weight: bold;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    #rolamento-roda img {
+        align-items: center;
+        justify-content: center;
+        margin-left: 92px;
+        padding: 5px;
+    }
+    #rolamento-roda button,#cabeca-direcao button {
+        justify-content: center;
+        margin-left: 55px;
+    }
+    #cabeca-direcao img {
+        margin-left: 72px;
+        padding: 10px;
+    }
+    /*Suspensão*/
+    .suspensao {
+        padding: 100px;
+        margin-top: 100px;
+        margin-left: 200px;
+        text-align: center;
+    }
+    #mola,#bracos,#bucha {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 1px 1px blue;
+        margin-top: 20px;
+        padding: 40px;
+        width: 100%;
+        border-end-start-radius: 15px;
+    }
+    #mola p,#bracos p,#bucha p {
+        font-size: 10px;
+        font-family: cursive;
+        letter-spacing: 2px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #mola img,#bracos img,#bucha img {
+        width: 35px;
+        height: 35px;
+        margin-left: 140px;
+    }
+    #mola button,#bracos button,#bucha button {
+        margin-top: 10px;
+        width: 100px;
+        font-size: 10px;
+    }
+    #bracos button,#bucha button {
+        margin-left: 2px;
+        margin-top: 10px;
+        width: 60px;
+    }
+    #bracos img,#bucha img {
+        margin-left: 2px;
+    }
+    #mola img {
+        margin-left: 2px;
+    }
+    #mola button {
+        margin-left: -2px;
+        width: 60px;
+    }
+    /*ogos de Junta de Motor*/
+    .jogo p {
+        font-size: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .jogo img {
+        width: 50px;
+        height: 50px;
+    }
+    .jogo button {
+        font-size: 10px;
+    }
+}
